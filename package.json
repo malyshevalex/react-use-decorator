@@ -1,0 +1,22 @@
+{
+  "name": "react-use-decorator",
+  "version": "0.1.0",
+  "description": "React Component decorator for load webpack useables",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malyshevalex/react-use-decorator.git"
+  },
+  "keywords": [
+    "react",
+    "decorator",
+    "useable",
+    "webpack"
+  ],
+  "author": "Alex Malyshev <malyshevalex@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/malyshevalex/react-use-decorator/issues"
+  },
+  "homepage": "https://github.com/malyshevalex/react-use-decorator#readme"
+}
