@@ -1,6 +1,6 @@
 {
   "name": "react-use-decorator",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React Component decorator for load webpack useables",
   "main": "index.js",
   "repository": {
@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/malyshevalex/react-use-decorator/issues"
   },
-  "homepage": "https://github.com/malyshevalex/react-use-decorator#readme"
+  "homepage": "https://github.com/malyshevalex/react-use-decorator#readme",
+  "devDependencies": {
+    "babel": "^5.6.14"
+  },
+  "scripts": {
+    "build": "babel ./src/use.js --out-file ./lib/use.js"
+  }
 }
